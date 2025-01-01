@@ -7,14 +7,14 @@
   <default revision="refs/heads/marshmallow"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="2" />
 
   <project path="build" name="MiCode/patchrom_build">
     <copyfile src="makefile" dest="Makefile" />
   </project>
-  <project path="manifest" name="MiCode/patchrom" />
+  <project path="manifest" name="UntuKemeng/patchrom" />
   <project path="android" name="MiCode/patchrom_android" />
   <project path="miui" name="MiCode/patchrom_miui" />
-  <project path="tools" name="MiCode/patchrom_tools" />
+  <project path="tools" name="UntuKemeng/patchrom_tools" />
   <project path="angler" name="MiCode/patchrom_angler" />
 </manifest>
